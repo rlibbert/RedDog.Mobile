@@ -11,6 +11,8 @@
         <Label Text="{Binding Description}" FontSize="Small"/>
         <Label Text="Price:" FontSize="Medium" />
         <Label Text="{Binding UnitPrice}" FontSize="Small"/>
+        <Button VerticalOptions="Center" Text="Place Order" Command="{Binding PlaceOrderCommand}"/>
     </StackLayout>
+
     
 </ContentPage>
