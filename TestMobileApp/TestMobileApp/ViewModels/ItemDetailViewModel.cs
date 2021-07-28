@@ -101,7 +101,7 @@ namespace TestMobileApp.ViewModels
                     } }
                 });
 
-            await Shell.Current.GoToAsync($"//{nameof(Views.AboutPage)}");
+            await Shell.Current.GoToAsync("../..");
         }
 
 
